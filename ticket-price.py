@@ -23,9 +23,9 @@ while True:
 
 if age < 12:
     price = 5
-elif age <=12 and age <= 17:
+elif age >=12 and age <= 17:
     price = 7
-elif age <=18 and age <= 64:
+elif age >=18 and age <= 64:
     price = 10
 else:
     price = 6
